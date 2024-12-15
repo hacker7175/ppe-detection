@@ -22,7 +22,7 @@ class YOLOApp(App):
         self.model_path = None
 
     def build(self):
-        self.model_path = "model/trained_model.pt"  # Path to YOLOv8 model weights
+        self.model_path = "models/trained_model.pt"  # Path to YOLOv8 model weights
         self.output_dir = "results"  # Directory to save processed images
         self.layout = BoxLayout(orientation="vertical")
 
